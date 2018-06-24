@@ -1,0 +1,666 @@
+#services{
+    background-color: #F4F3F2;
+}
+.banner{
+    padding: 0;
+    background-image: url('assets/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+    padding-bottom: 17%;
+}
+.banner-arrow{
+    padding-left: 2%;
+    padding-top: 10px;
+}
+.banner-arrow img{
+    position: relative;
+    margin-left: -26px;
+}
+.banner-row h1{
+    font-family: Copperplate;
+    color: #31423B;
+    font-size: 326%;
+    position: relative;
+    z-index: 11;
+    margin-top: -90px;
+}
+h3.emergency{
+    color: #C41230;
+    font-family: Charter;
+    padding-left: 3%;
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 2.7rem;
+}
+.services-section{
+    padding-left: 2%;
+    padding-top: 4%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    margin-bottom: 0;
+}
+.line-vert{
+    /* margin-left: 110px; */
+    margin-left: 8%;        
+    z-index: 11;
+    position: absolute;
+    border: solid black 1px;
+    height: 450px;
+}
+.line-hori{
+    border: solid black 1px;    
+}
+.mission-h1{
+    /* margin-left: 160px; */
+    margin-left: 14%;
+    margin-bottom: 17px;
+    margin-top: .8rem;
+    font-style: italic;
+    display: inline-block;
+    font-family: Garamond;
+}
+.mission-logo{
+    float: right;
+}
+.mission-logo2{
+    float: right;
+}
+.service-list{
+    /* padding-left: 175px; */
+    padding-left: 16%;
+    position: relative;
+    padding-top: 2%;
+}
+.service-list a{
+    text-decoration: none;
+    font-family: Charter;
+    font-weight: bold;
+    color: black;
+    font-size: 150%;
+    line-height: 40px;
+}
+.last-li{
+    line-height: 29px;
+}
+.req-app{
+    padding-top: 5%;
+    margin-bottom: -5%;    
+}
+.req-app img{
+    /* width: 150%; */
+    float: right;
+    right: 7%;
+    position: absolute;
+    z-index: 10;
+    transform: translateY(-148%);
+}
+.req-t-box{
+    width: 100%;
+    height: 165px;
+    background-color: #99BAEA;
+    border-radius: 24px;
+    position: relative;
+    z-index: 20;
+    margin-bottom: 30px;
+    box-shadow: 0px 6px 12px #00000054;
+    padding: 10px 23px;
+}
+.req-b-box{
+    width: 100%;
+    height: 165px;
+    background-color: #99BAEA;
+    border-radius: 24px;
+    position: relative;
+    z-index: 20;
+    box-shadow: 0px 6px 12px #00000054;
+    padding: 10px 30px;
+}
+.req-t-box h4, .req-t-box a{
+    font-family: Charter;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+}
+.req-b-box h4{
+    font-family: Garamond;
+    font-style: italic;
+    text-align: center;
+}
+.imd-row{
+    background: linear-gradient(to bottom, rgba(156,184,225,1) 0%,rgba(83,116,102,1) 100%);
+    padding-left: 2%;
+    /* padding-top: 2%; */
+    /* padding-bottom: 2%; */
+    margin-bottom: 0;
+}
+.imd-left{
+    position: relative;
+    padding-top: 4%;
+    z-index: 11;
+}
+.imd-left ul{
+    font-family: charter;
+    font-style: italic;
+    font-size: 140%;
+    /* font-size: 19.6px; */
+    line-height: 220%;
+}
+h3.imd-header{
+    font-size: 2.7rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: charter;
+    color: white;
+}
+.imd-center{
+    position: relative;
+    z-index: 11;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.imd-center img{
+    /* transform: translateX(50%); */
+    width: 40%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imd-right{
+    position: relative;
+    padding-top: 4%;
+    z-index: 11;
+}
+.imd-right ul{
+    font-family: charter;
+    font-style: italic;
+    font-size: 140%;
+    /* font-size: 19.6px; */
+    line-height: 220%;
+    transform: translateX(20%);
+    display: inline-block;
+}
+.imd-dla{
+    line-height: 30px;
+    margin-top: 10px;
+}
+/* .diamond{
+    position: absolute;
+    background-color: white;
+    width: 21.6%;
+    height: 35%;
+    transform: rotate(45deg);
+    margin-top: 59px;
+} */
+.plain-sq{
+    position: absolute;
+    max-width: 28%;
+    height: auto;
+    margin-top: 0.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+.filler-row{
+    padding-top: 5%;
+    padding-bottom: 6%;
+    margin-bottom: 0;
+}
+h3.emergency2{
+    color: #C41230;
+    font-family: Charter;
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 2.7rem;
+    text-align: center;
+    padding-left: 15%;
+}
+h3.emergency3{
+    color: #C41230;
+    font-family: Copperplate;
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 2.1rem;
+    text-align: center;
+    padding-right: 15%;
+}
+.divider{
+    width: 90%;
+    border: solid #707070 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line-vert-white{
+    margin-left: 8%;        
+    z-index: 11;
+    position: absolute;
+    border: solid white 1px;
+    height: 458px;
+}
+.surgical-header{
+    margin-left: 16%;
+    margin-bottom: 17px;
+    margin-top: 30px;
+    font-style: italic;
+    display: inline-block;
+    font-family: Garamond;
+    color: white;
+    font-size: 3rem;
+}
+.surgical-row{
+    background-color: black;    
+    padding-left: 2%;
+    padding-top: 4%;
+    padding-right: 10%;
+    margin-bottom: 0;
+}
+.line-hor-white{
+    border: solid white 1px;
+}
+.procedures-list{
+    padding-left: 17%;
+    position: relative;
+    padding-top: 2%;
+}
+h4.procedures-header{
+    color: white;
+    font-family: Garamond;
+    font-style: italic;
+}
+.pro-under{
+    border: solid white 1px;
+    width: 80%;
+}
+.procedures-list ul{
+    font-family: Copperplate;
+    font-size: 27px;
+    padding-left: 30px;
+    color: white;
+}
+.hospitals-row{
+    /* padding: 10% 10% 4% 2%; */
+    padding: 3% 10% 4% 2%;
+    margin-bottom: 0;
+}
+.hosp-arrow{
+    width: 40%;
+    position: absolute;
+    transform: translateX(-2%);
+    margin-left: -2%;
+    display: none;
+}
+/* .hosp-p{
+    position: absolute;
+    padding-left: 1%;
+    margin-top: 28px;
+    width: 28%;
+
+} */
+.hosp-p{
+    position: relative;
+    /* transform: translateX(50%); */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    background-color: #BCCAC4;
+    width: 50%;
+    padding: 3% 5%;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 1px 1px 13px black;
+    font-family: copperplate;
+    /* margin-top: 7%; */
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.hosp-aff{
+    border: #616576 solid 4px;
+    border-right: none;
+    /* padding-top: 16%; */
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-top: -3%;
+}
+h3.hosp-aff-header{
+    font-family: Garamond;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.hosp-aff-line{
+    width: 80%;
+    border: 1px solid #707070;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hosp-aff ul{
+    font-family: Copperplate;
+    font-size: 25px;
+    line-height: 50px;
+    padding-left: 15px;
+}
+.hosp-aff li{
+    display: block;
+}
+.req-app.ml8{
+    margin-left: 8%;
+}
+img.jackdrill{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.jack-surg{
+    width: 116%;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 1070px){
+    .req-app{
+        margin-top: 7%;
+    }
+    .req-app-arrow img{
+        width: 55%;
+        transform: translateY(-160%)
+    }
+    .req-b-box h4{
+        font-size: 30px;
+    }
+    .imd-right ul{
+        transform: translateX(10%);
+    }
+    h3.imd-header{
+        text-align: left;
+    }
+    /* .imd-center img{
+        margin-left: 0;
+    } */
+}
+
+@media (max-width: 1140px){
+    .col.s12.m7.hosp-aff{
+        width: 100%;
+    }
+    .hosp-aff{
+        padding-top: 6%;
+        padding-bottom: 3%;
+    }
+    .hosp-aff li{
+        display: block;
+        text-align: center;
+    }
+    .col.s12.m4.req-app.ml8{
+        display: none;
+    }
+    .hosp-arrow{
+        width: 50%;
+    }
+    .hosp-p{
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+}
+@media (max-width: 1033px){
+    .mission-logo2{
+        float: left;
+        margin-left: 17%;
+        margin-top: 5%;
+    }
+}
+@media (max-width: 1000px){
+    .req-app-arrow{
+        display: none;
+    }
+}
+@media (max-width: 990px){
+    .imd-right ul{
+        transform: translateX(0%);
+    }
+}
+@media (max-width: 980px){
+    .req-b-box h4{
+        margin-top: 3%;
+    }
+}
+@media (max-width: 970px){
+    /* .hosp-p{
+        font-size: 14px;
+        margin-top: 2%;
+    } */
+}
+@media (max-width: 881px){
+    .col.s12.m8.procedures-list{
+        width: 100%;
+    }
+    .col.s12.m4.jack-surg-col{
+        width: 100%;
+    }
+    .jack-surg{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mission-logo2{
+        margin-left: 25%;
+        margin-top: 9%;
+    }
+}
+@media (max-width: 830px){
+    .col.s12.m8.service-list{
+        width: 100%;
+    }
+    .col.s12.m4.req-app{
+        width: 100%;
+        margin-left: 7%;
+        margin-top: 0%;
+    }
+    .req-t-box{
+        padding: 20px 23px;
+    }
+    .req-t-box h4, .req-t-box a{
+        font-size: 2.4rem;
+    }
+    .req-b-box h4{
+        font-size: 45px;
+    }
+    .services-section{
+        padding-bottom: 8%;
+    }
+}
+@media (max-width: 850px){
+    .hosp-arrow{
+        width: 60%;
+    }
+    /* .hosp-p{
+        width: 46%;
+        font-size: 16px;
+        margin-top: 3%;
+    } */
+}
+@media (max-width: 800px){
+    .banner{
+        background-position-x: right;
+    }
+    .banner-row h1{
+        margin-left: 15%;
+    }
+    .hosp-p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 740px){
+    .imd-center img{
+        margin-top: 20%;
+    }
+}
+@media (max-width: 690px){
+    .mission-logo{
+        float: left;
+        margin-left: 17%;
+        margin-top: 9%;
+    }
+    .req-b-box h4{
+        font-size: 35px;
+    }
+    .req-b-box{
+        padding: 20px 30px;
+    }
+}
+@media (max-width: 662px){
+    .hosp-aff ul{
+        font-size: 20px;
+    }
+    .hosp-arrow{
+        width: 70%;
+    }
+    .hosp-aff{
+        padding-top: 24%;
+    }
+}
+@media (max-width: 600px){
+    .imd-left ul{
+        text-align: center;
+        font-size: 25px;
+    }
+    .imd-right ul{
+        text-align: center;
+        font-size: 25px;
+        transform: none;
+        display: block;
+        margin-bottom: 11%;
+    }
+    h3.imd-header{
+        text-align: center;
+    }
+    .imd-center img{
+        margin-top: 7%;
+    }
+    h3.emergency2{
+        padding-left: 0%
+    }
+    h3.emergency3{
+        padding-right: 0%
+    }
+    .filler-row{
+        padding-top: 7%;
+        padding-bottom: 10%;
+    }
+    .mission-logo2{
+        width: 40%;
+        margin-left: 37%;
+    }
+    h4.procedures-header{
+        font-size: 20px;
+    }
+    .procedures-list ul{
+        font-size: 20px;
+    }
+    .jack-surg{
+        width: 80%;
+    }
+    .hospitals-row{
+        padding: 4% 0%;
+    }
+    .hosp-p{
+        /* right: 50%; */
+        position: relative;
+        transform: translateX(50%);
+        font-size: 17px;
+        background-color: #BCCAC4;
+        width: 50%;
+        padding: 5% 5%;
+        text-align: center;
+        border-radius: 25px;
+        box-shadow: 1px 1px 13px black;
+        font-family: copperplate;
+        margin-top: 7%;
+    }
+    .hosp-arrow{
+        display: none;
+    }
+    .hosp-aff{
+        border: none;
+        padding-top: 7%;
+    }
+    .jack-drill{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+}
+@media (max-width: 540px){
+    .req-t-box{
+        padding: 10px 23px;
+    }
+}
+@media (max-width: 510px){
+    .banner-arrow img{
+        max-width: 375px;
+    }
+    .banner-row h1{
+        margin-top: -75px;
+    }
+}
+@media (max-width: 475px){
+    .hosp-aff ul{
+        font-size: 16px;
+    }
+}
+
+/* @media (min-width: 1281px){
+    #services{
+        padding: 0% 3%;
+    }
+} */
+
+.img-col-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.mt5{
+    margin-top: 5%;
+}
+.lame3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+}
+.bold{
+    font-weight: bold;
+}
+.dental1{
+    width: 60%;
+}
+.gast2-img-row{
+    width: 40%;
+}
+.gast3{
+    float: right;
+}
+.italic{
+    font-style: italic;
+}
+.stem1{
+    width: 40%;
+}
+
+@media (min-width: 1410px){
+    .req-b-box{
+        padding: 25px 30px;
+    }
+    .banner img{
+        margin-left: -40px;
+    }
+    .req-app img{
+        right: 8%;
+    }
+}

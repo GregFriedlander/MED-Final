@@ -1,0 +1,61 @@
+#header{
+    background-color: #F4F3F2;
+    padding-top: 18px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.landing-logo{
+    width: 100%;
+}
+.header-row{
+    margin-bottom: 0;
+}
+.header-info h2{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    /* font-size: 2.133em; */
+    /* font-size: 2.5vw; */
+    font-size: 28px;
+    color: #C41230;
+    text-align: right;
+}
+.header-info h3{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    /* font-size: 2.467em; */
+    /* font-size: 2.9vw; */
+    font-size: 32px;
+    margin-top: -3%;
+    color: #C41230;
+    text-align: right;
+}
+.header-info .tag-line{
+    font-family: 'Cormorant Garamond', serif;
+    /* font-size: 2.2em; */
+    font-style: italic;
+    color: #89A2C6;
+    -webkit-text-stroke: 1px #00000042;
+    margin-right: 3%;
+    margin-top: 7%;
+    font-size: 30px;
+}
+
+nav{
+    position: fixed;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar li{
+    display: inline;
+    border-right: 2px solid black;
+    padding-right: 20px;
+}
+.nav-bar a{
+    color: #C41230;
+    text-shadow: 0px 1px 1px black;
+    font-size: 1.533em;
+    font-family: 'Balthazar', serif;
+}
+.nav-bar .contact-link{
+    border-right: none;
+}

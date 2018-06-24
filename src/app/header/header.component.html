@@ -1,0 +1,38 @@
+<div id="header">
+  <div class="navbar-fixed ">
+    <mz-navbar [navbarClass]="'grey lighten-4 pad-left-2 '">
+      <mz-navbar-item-container [align]="'left'">
+        <mz-navbar-item [itemClass]="'hide-on-small-only2'"><a [routerLink]="['']">Home</a></mz-navbar-item>
+        <mz-navbar-item [itemClass]="'hide-on-small-only2'"><a [routerLink]="['/services']">Services</a></mz-navbar-item>
+        <mz-navbar-item [itemClass]="'hide-on-small-only2'"><a [routerLink]="['/team']">Our Team</a></mz-navbar-item>
+        <mz-navbar-item [itemClass]="'hide-on-small-only2'"><a [routerLink]="['/testimonials']">Testimonials</a></mz-navbar-item>
+        <mz-navbar-item [itemClass]="'hide-on-small-only2'"><a href="http://www.myequinestoreonline.com/main.asp?uri=1360&id=782">Shop</a></mz-navbar-item>
+        <mz-navbar-item [itemClass]="'hide-on-small-only2'"><a [routerLink]="['/contact']">Contact</a></mz-navbar-item>
+        <mz-navbar-item [itemClass]="'show-on-small-only2'"><a  id="test-drop" href="#"><i class="material-icons large">menu</i></a></mz-navbar-item>
+        <mz-dropdown [id]="'dropdown-demo'"  [dropdownButtonId]="'test-drop'" [belowOrigin]="true" [constrainWidth]="false">
+          <mz-dropdown-item><a [routerLink]="['']">Home</a></mz-dropdown-item>
+          <mz-dropdown-item><a [routerLink]="['/services']">Services</a></mz-dropdown-item>
+          <mz-dropdown-item><a [routerLink]="['/team']">Our Team</a></mz-dropdown-item>
+          <mz-dropdown-item><a [routerLink]="['/testimonials']">Testimonials</a></mz-dropdown-item>
+          <mz-dropdown-item><a href="http://www.myequinestoreonline.com/main.asp?uri=1360&id=782">Shop</a></mz-dropdown-item>
+          <mz-dropdown-item><a [routerLink]="['/contact']">Contact</a></mz-dropdown-item>
+        </mz-dropdown>
+      </mz-navbar-item-container>
+    </mz-navbar>
+  </div>
+  <div class="row header-row">
+    <div class="col m6">
+      <img src="assets/LandingLogo.png" alt="Mobile Equine Diagnostics Logo" class="landing-logo">
+    </div>
+    <div class="col s12 m6 header-info">
+      <h3>CALL US TO BOOK<br>AN APPOINTMENT</h3>
+      <h3 class="number">
+        <a href="tel: 1-661-733-7909">(661) 733-7909</a>
+      </h3>
+      <h3 class="tag-line">Your horse's soundness is your priority...
+        <br>
+        Lameness is our specialty...</h3>
+    </div>
+  </div>
+
+</div>

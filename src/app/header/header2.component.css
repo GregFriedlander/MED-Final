@@ -1,0 +1,80 @@
+#header{
+    background-color: #f5f5f5;
+}
+.header-row{
+    padding: 2% 2% 0 2%;
+    margin-bottom: 0;
+}
+.landing-logo{
+    width: 100%;
+}
+nav{
+    position: fixed;
+}
+.header-info h3{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    color: #C41230;   
+    text-align: right;
+    font-size: 32px; 
+}
+.header-info .tag-line{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #89A2C6;
+}
+mz-navbar-item a {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    color: #C41230;
+    font-size: 23px; 
+}
+h3.number{
+    margin-top: -1%;
+    color: #C41230;
+}
+a {
+    color: #C41230;
+}
+
+@media (min-width: 1500px){
+    .header-info{
+        transform: translate(-10%, 20%);
+    }
+}
+@media (max-width: 1000px){
+    .header-info .tag-line{
+        font-size: 28px;
+    }
+    .header-info h3{
+        font-size: 26px;
+    }
+}
+@media (max-width: 870px){
+    .header-info .tag-line{
+        font-size: 24px;
+    }
+    .header-info h3{
+        font-size: 23px;
+    }
+}
+@media (max-width: 754px){
+    .header-info .tag-line{
+        font-size: 20px;
+    }
+    .header-info h3{
+        font-size: 19px;
+    }
+    .landing-logo{
+        margin-top: 2%;
+    }
+}
+@media (max-width: 600px){
+    .header-info .tag-line{
+        text-align: center;
+        font-size: 23px;
+        margin-bottom: 6%;
+    }
+    .header-info h3{
+        text-align: center;
+        font-size: 28px;
+    }
+}
